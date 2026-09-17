@@ -155,7 +155,7 @@ Kebijakan monetisasi yang berlaku:
 
 - **Banner** 320×50 hanya di Home dan History, tinggi slot tetap agar daftar tidak melompat; tidak ada banner di layar sesi, ringkasan, atau editor.
 - **Interstitial** hanya setelah layar ringkasan ditutup — tidak pernah di tengah timer. Frekuensi dibatasi `InterstitialGate`: minimal pada **sesi ketiga** sejak iklan terakhir dan tidak dua kali dalam **6 menit** (kira-kira satu iklan per 20–30 menit membersihkan). Iklan dimuat sejak aplikasi dibuka dan dimuat ulang otomatis setelah tampil, jadi tidak pernah menunda navigasi.
-- **Rewarded** hanya dari aksi eksplisit (buka tema Bloom/Midnight dan preset deep-clean 45 menit). Hadiah hanya diberikan dari callback `onUserEarnedReward`; menutup iklan lebih awal tidak membuka apa pun. **Catatan AAB 1.5.2**: rewarded dinonaktifkan (`ENABLE_REWARDED=false`) karena belum ada unit ID produksi — memaksa ID uji ke produksi melanggar kebijakan AdMob. Buat unit rewarded di dashboard AdMob, tambahkan `ADMOB_REWARDED_ID` ke `tool/release/monetization.json`, lalu bangun ulang tanpa flag tersebut.
+- **Rewarded** hanya dari aksi eksplisit (buka tema Bloom/Midnight dan preset deep-clean 45 menit). Hadiah hanya diberikan dari callback `onUserEarnedReward`; menutup iklan lebih awal tidak membuka apa pun. Rilis 1.5.3 menggunakan unit rewarded produksi Cleanly; ID produksi tetap disimpan lokal di `tool/release/monetization.json` dan tidak di-commit.
 - Semua permintaan iklan menunggu **consent UMP** selesai; bila consent gagal, slot tetap kosong tanpa mengganggu UI. Opsi privasi tersedia di Settings.
 - Debug maupun rilis tanpa `--dart-define` otomatis memakai **ID uji Google** (terverifikasi di dalam APK); ID produksi masuk lewat `tool/release/monetization.json`.
 

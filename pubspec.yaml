@@ -4,7 +4,7 @@ publish_to: 'none'
 
 # versionCode harus lebih tinggi dari rilis live terakhir (1.4.1+9), jika tidak
 # Play Console menolak unggahan sebagai version code yang sudah dipakai.
-version: 1.5.2+12
+version: 1.5.3+13
 
 environment:
   sdk: ^3.12.2
