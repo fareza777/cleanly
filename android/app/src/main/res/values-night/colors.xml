@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notification small icon: sparkle tanda "bersih kembali". -->
+    <color name="launch_background">#0E1614</color>
+</resources>

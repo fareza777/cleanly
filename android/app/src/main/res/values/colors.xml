@@ -1,0 +1,7 @@
+<resources>
+    <!-- Latar adaptive icon: jade gelap agar sparkle putih tetap kontras. -->
+    <color name="ic_launcher_background">#0B8F6E</color>
+    <!-- Warna jendela saat proses Android masih menyiapkan Flutter. -->
+    <color name="launch_background">#F4F8F6</color>
+    <color name="launch_background_dark">#0E1614</color>
+</resources>

@@ -1,0 +1,52 @@
+name: cleanly
+description: "Cleanly — cleaning checklist dan quick home reset untuk rumah sibuk."
+publish_to: 'none'
+
+# versionCode harus lebih tinggi dari rilis live terakhir (1.4.1+9), jika tidak
+# Play Console menolak unggahan sebagai version code yang sudah dipakai.
+version: 1.5.2+12
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  sqflite: ^2.4.3
+  path: ^1.9.1
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.5
+  flutter_local_notifications: ^22.2.0
+  timezone: ^0.11.1
+  google_mobile_ads: ^9.1.0
+  uuid: ^4.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.4.2+1
+  # Dipakai hanya oleh tool/generate_icon.dart untuk membuat ikon launcher.
+  image: 4.9.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSans-ExtraBold.ttf
+          weight: 800
