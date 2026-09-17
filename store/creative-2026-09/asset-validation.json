@@ -1,0 +1,79 @@
+[
+  {
+    "file": "screenshots/01-less-overwhelm.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 202880
+  },
+  {
+    "file": "screenshots/02-your-time.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 224700
+  },
+  {
+    "file": "screenshots/03-guided-checklist.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 167299
+  },
+  {
+    "file": "screenshots/04-routines.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 200908
+  },
+  {
+    "file": "screenshots/05-schedule.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 179159
+  },
+  {
+    "file": "screenshots/06-progress.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 175058
+  },
+  {
+    "file": "screenshots/07-finish.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 186017
+  },
+  {
+    "file": "screenshots/08-dark-mode.png",
+    "width": 1080,
+    "height": 1920,
+    "channels": 3,
+    "bytes": 202339
+  },
+  {
+    "file": "brand/app-icon-512.png",
+    "width": 512,
+    "height": 512,
+    "channels": 4,
+    "bytes": 59239
+  },
+  {
+    "file": "brand/app-icon-master-1024.png",
+    "width": 1024,
+    "height": 1024,
+    "channels": 4,
+    "bytes": 201605
+  },
+  {
+    "file": "brand/feature-graphic-1024x500.png",
+    "width": 1024,
+    "height": 500,
+    "channels": 3,
+    "bytes": 764870
+  }
+]

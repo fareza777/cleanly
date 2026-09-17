@@ -4,7 +4,7 @@
 
 - App name: `Cleanly: Cleaning Checklist`
 - Package: `id.arunika.arunika_growth`
-- Version: `1.5.2 (12)`
+- Version: `1.5.3 (13)`
 - Category: Productivity
 - Contact/privacy: `https://fareza777.github.io/cleanly/privacy-policy.html`
 - Store language: English (United States)
